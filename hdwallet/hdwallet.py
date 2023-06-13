@@ -1312,7 +1312,7 @@ class HDWallet:
             passphrase=self.passphrase(),
             seed=self.seed(),
             root_xprivate_key=self.root_xprivate_key(),
-            # root_xprivate_key_hex=self.root_xprivate_key(encoded=False),
+            root_xprivate_key_hex=self.root_xprivate_key(encoded=False),
             root_xpublic_key=self.root_xpublic_key(),
             # root_xpublic_key_hex=self.root_xpublic_key(encoded=False),
             xprivate_key=self.xprivate_key(),
